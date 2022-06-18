@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	
+	width: 1205px;
+	height: 50px;
+	top: 0px;
+	background-color: rgba(134, 94, 0, 1);
+}
+.awal{	
+	text-align: center;
+	color:	rgba(249, 213, 48, 1);
+	text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+body{
+	background-image:linear-gradient(rgba(241, 241, 241, 0.350),rgba(241, 241, 241, 0.350)),url(asset/1.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	
+}
+.dol{
+	z-index: 100;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	position: relative;
+	margin-top: 100px;
+	font-size: 40px;
+}
+.pletokan{
+	position: relative;
+	width: 270px;
+	height: 450px;
+	left: 100px;
+	top: 0px;
+	display: inline-block;
+	border: 8px solid rgba(203, 172, 72, 1);
+	border-radius: 40px;
+	background-color: rgba(129, 111, 47, 1);
+	margin: 40px;
+	box-shadow: 10px 15px 50px rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 5px;
+}
+.gangsing{
+	position: relative;
+	width: 270px;
+	height: 450px;
+	left: -300px;
+	top: 0px;
+	display: inline-block;
+	border: 8px solid rgba(203, 172, 72, 1);
+	border-radius: 40px;
+	background-color: rgba(129, 111, 47, 1);
+	margin: 40px;
+	box-shadow: 10px 15px 50px rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 5px;
+}
+.meriam{
+	position: relative;
+	width: 270px;
+	height: 450px;
+	left: 370px;
+	top: 0px;
+	display: inline-block;
+	border: 8px solid rgba(203, 172, 72, 1);
+	border-radius: 40px;
+	background-color: rgba(129, 111, 47, 1);
+	margin: 40px;
+	box-shadow: 10px 15px 50px rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 5px;
+}
+.cards{
+	width: 300px;
+	height: 400px;
+	left: 564px;
+	top: 480px;
+	display: inline-block;
+	border: 8px solid rgba(203, 172, 72, 1);
+	border-radius: 40px;
+	background-color: rgba(129, 111, 47, 1);
+	margin: 40px;
+	box-shadow: 10px 15px 50px rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 5px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+.image{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 30px;
+	height: 229px;
+	border-radius: 30px;
+	box-shadow: 8px 5px 10px rgb(0, 0, 0);
+	width: 40vh;
+}
+.title{
+	text-align: center;
+}
+button:hover{
+	background-color: rgba(82, 70, 28, 0.922);
+	color: rgba(255, 255, 255, 0.89);
+	transition: .8s;
+	cursor: pointer;
+}
+.profile{
+	background-color: #ece4ae;
+	text-align:center;
+	color: black;
+	margin-top: 68px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+}
+.nama{
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 50px;
+	font-size: 18px;
+}
+.download{
+	position: absolute;
+	text-align: right;
+	position: inherit;
+	background-color:rgba(0, 0, 0, 0.373);
+	height:60vh;
+}
+.ButtonDonlot{
+	position: relative;
+	background-color: rgba(203, 172, 72, 1);	
+	width: 50vh;
+	height: auto;
+	text-align: center;
+	margin-right: 160vh;
+	margin-left: auto;
+	margin-top: auto;
+	font-size:large;
+	border-radius: 5px;
+	top: -18vh;
+}
+.teksDL{
+	margin-right: 20vh;	
+	margin-left: auto;
+	margin-top: auto;
+	font-size: 10vh;
+}
