@@ -16,12 +16,13 @@ ul{
 }
 
 body{
-	background-image:linear-gradient(rgba(241, 241, 241, 0.400),rgba(241, 241, 241, 0.400)),url(asset/1.jpg);
-	background-size: cover;
+	background-image:linear-gradient(rgba(241, 241, 241, 0.350),rgba(241, 241, 241, 0.350)),url(asset/1.jpg);
+	background-size:cover;
+	background-attachment: fixed;
 	background-position: center;
-	height: 160vh;
 	background-repeat: no-repeat;
 	position: relative;
+	
 }
 .dol{
 	z-index: 100;
@@ -32,11 +33,11 @@ body{
 	font-size: 40px;
 }
 .pletokan{
-	position: absolute;
+	position: relative;
 	width: 270px;
 	height: 450px;
 	left: 100px;
-	top: 250px;
+	top: 0px;
 	display: inline-block;
 	border: 8px solid rgba(203, 172, 72, 1);
 	border-radius: 40px;
@@ -47,11 +48,11 @@ body{
 	padding: 5px;
 }
 .gangsing{
-	position: absolute;
+	position: relative;
 	width: 270px;
 	height: 450px;
-	left: 428px;
-	top: 250px;
+	left: -300px;
+	top: 0px;
 	display: inline-block;
 	border: 8px solid rgba(203, 172, 72, 1);
 	border-radius: 40px;
@@ -62,11 +63,11 @@ body{
 	padding: 5px;
 }
 .meriam{
-	position: absolute;
+	position: relative;
 	width: 270px;
 	height: 450px;
-	left: 756px;
-	top: 250px;
+	left: 370px;
+	top: 0px;
 	display: inline-block;
 	border: 8px solid rgba(203, 172, 72, 1);
 	border-radius: 40px;
@@ -93,6 +94,7 @@ body{
 
 img{
 	width: 100%;
+	height: auto;
 }
 .image{
 	display: block;
@@ -108,16 +110,18 @@ img{
 	text-align: center;
 }
 button:hover{
-	background-color: rgb(82, 70, 28);
+	background-color: rgba(82, 70, 28, 0.922);
 	color: rgba(255, 255, 255, 0.89);
 	transition: .8s;
 	cursor: pointer;
 }
 .profile{
-	background-color: #FAFAD2;
+	background-color: #ece4ae;
 	text-align:center;
 	color: black;
-	margin-top: 653px;
+	margin-top: 68px;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 50px;
 }
 .nama{
@@ -125,4 +129,30 @@ button:hover{
   	margin-right: auto;
 	margin-top: 50px;
 	font-size: 18px;
+}
+.download{
+	position: absolute;
+	text-align: right;
+	position: inherit;
+	background-color:rgba(0, 0, 0, 0.373);
+	height:60vh;
+}
+.ButtonDonlot{
+	position: relative;
+	background-color: rgba(203, 172, 72, 1);	
+	width: 50vh;
+	height: auto;
+	text-align: center;
+	margin-right: 160vh;
+	margin-left: auto;
+	margin-top: auto;
+	font-size:large;
+	border-radius: 5px;
+	top: -18vh;
+}
+.teksDL{
+	margin-right: 20vh;	
+	margin-left: auto;
+	margin-top: auto;
+	font-size: 10vh;
 }
