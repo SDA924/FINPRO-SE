@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	
+	width: 1210px;
+	height: 50px;
+	top: 0px;
+	background-color: rgba(134, 94, 0, 1);
+}
+.awal{	
+	text-align: center;
+	color:	rgba(249, 213, 48, 1);
+	text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+body{
+	background-color: #FAFAD2;
+}
+.dol{
+	z-index: 100;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	margin-top: 100px;
+	font-size: 40px;
+}
+.image{
+	position: relative;
+	height: 400px;
+	width: 302px;
+	top: 10px;
+	left: 450px;
+	display: inline-block;
+	background-color:rgba(255, 255, 255, 0);
+	border-style: outset;
+	
+	border-color: rgb(0, 0, 0);
+	border-width: 4px;
+}
+.poster{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 280px;
+	height: 380px;
+}
+.title{
+	text-align: center;
+}
